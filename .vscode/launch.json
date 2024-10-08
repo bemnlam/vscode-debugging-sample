@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Dev (vite-gaudi)",
+            "url": "http://localhost:5173/",
+            "webRoot": "${workspaceFolder}/vite-gaudi",
+            "preLaunchTask": "npm: dev - vite-gaudi",
+            "runtimeArgs": [
+                "-inPrivate"
+            ],
+            "postDebugTask": "Terminate All Tasks",
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Dev (rsbuild-frank)",
+            "url": "http://localhost:3000/",
+            "webRoot": "${workspaceFolder}/rsbuild-frank",
+            "preLaunchTask": "npm: dev - rsbuild-frank",
+            "runtimeArgs": [
+                "-inPrivate"
+            ],
+            "postDebugTask": "Terminate All Tasks",
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Dev (all)",
+            "url": "http://localhost:5173",
+            "webRoot": "${workspaceFolder}/vite-gaudi",
+            "preLaunchTask": "all:dev",
+            "runtimeArgs": [
+                "-inPrivate"
+            ],
+            "postDebugTask": "Terminate All Tasks",
+        }
+    ]
+}
