@@ -2,6 +2,8 @@
 
 This GitHub repository contains a [tasks.json](.vscode/tasks.json) and a [launch.json](.vscode/launch.json) to handle package install, project build and browser debugging in VSCode.
 
+See the related blog post: [Debugging Nodejs applications using VSCode](https://blog.lofibean.cc/posts/debugging-nodejs-apps-using-vscode/)
+
 ## Install packages
 
 Choose top menu > **Run task...** (<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> > **Tasks: Run Task**)
